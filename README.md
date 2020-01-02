@@ -4,16 +4,18 @@
 
 # Usage
 
-`npm install babel-plugin-vettel-import --save-dev`
+```
+  npm install babel-plugin-vettel-import --save-dev
+```
 
 使用方式一：在  .babelrc 里进行配置(推荐):
 
 // .babelrc
 
 ```
->{
->>"plugins": [
->>>["vettel-import", {"library": "@vettel/picker"}]
->>]
->}
+{
+  "plugins": [
+    ["vettel-import", {"library": "@vettel/picker"}]
+  ]
+}
 ```
